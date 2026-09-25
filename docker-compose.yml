@@ -43,7 +43,7 @@ services:
       WARCON_ROLE: web
     restart: unless-stopped
     ports:
-      - '3000:3000'
+      - '3060:3000'
     depends_on:
       migrate:
         condition: service_completed_successfully
